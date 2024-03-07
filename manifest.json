@@ -1,0 +1,53 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "EtnBp",
+    "description": "The Endertainamnet behaviour pack",
+    "uuid": "4fef8731-cabc-4611-92d5-36a146571569",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      41
+    ]
+  },
+  "modules": [
+    {
+      "uuid": "a8b183c9-8722-4070-9742-35b6f8128d4f",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.7.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "1.0.0-beta"
+    },
+    {
+      "uuid": "10fa4648-ec72-4d22-9783-d204f49f404b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
